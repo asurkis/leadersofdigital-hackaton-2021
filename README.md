@@ -12,7 +12,7 @@
 - GitHub
 
 ## Демо
-`tbd`
+https://asurkis.github.io/leadersofdigital-hackaton-2021
 
 # Среда запуска
 Приложение запускается с помощью NodeJS.
