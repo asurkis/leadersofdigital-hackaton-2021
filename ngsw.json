@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1624129760150,
-  "index": "/leadersofdigital-hackaton-2021/index.html",
+  "timestamp": 1624129829123,
+  "index": "/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,13 +11,13 @@
         "ignoreVary": true
       },
       "urls": [
-        "/leadersofdigital-hackaton-2021/favicon.ico",
-        "/leadersofdigital-hackaton-2021/index.html",
-        "/leadersofdigital-hackaton-2021/main.86b3875ecdbed830b16a.js",
-        "/leadersofdigital-hackaton-2021/manifest.webmanifest",
-        "/leadersofdigital-hackaton-2021/polyfills.4dcd3afaf34482e79ea9.js",
-        "/leadersofdigital-hackaton-2021/runtime.ce2afe238265c8b3d829.js",
-        "/leadersofdigital-hackaton-2021/styles.9000d4fa46793e6c5f44.css"
+        "/favicon.ico",
+        "/index.html",
+        "/main.cab68b7bf61d0f91c8c7.js",
+        "/manifest.webmanifest",
+        "/polyfills.45e2d48ca819850e62fb.js",
+        "/runtime.ce2afe238265c8b3d829.js",
+        "/styles.9000d4fa46793e6c5f44.css"
       ],
       "patterns": []
     },
@@ -29,35 +29,35 @@
         "ignoreVary": true
       },
       "urls": [
-        "/leadersofdigital-hackaton-2021/assets/icons/icon-128x128.png",
-        "/leadersofdigital-hackaton-2021/assets/icons/icon-144x144.png",
-        "/leadersofdigital-hackaton-2021/assets/icons/icon-152x152.png",
-        "/leadersofdigital-hackaton-2021/assets/icons/icon-192x192.png",
-        "/leadersofdigital-hackaton-2021/assets/icons/icon-384x384.png",
-        "/leadersofdigital-hackaton-2021/assets/icons/icon-512x512.png",
-        "/leadersofdigital-hackaton-2021/assets/icons/icon-72x72.png",
-        "/leadersofdigital-hackaton-2021/assets/icons/icon-96x96.png"
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/leadersofdigital-hackaton-2021/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "/leadersofdigital-hackaton-2021/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "/leadersofdigital-hackaton-2021/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "/leadersofdigital-hackaton-2021/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "/leadersofdigital-hackaton-2021/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "/leadersofdigital-hackaton-2021/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "/leadersofdigital-hackaton-2021/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "/leadersofdigital-hackaton-2021/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "/leadersofdigital-hackaton-2021/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/leadersofdigital-hackaton-2021/index.html": "87847c5f35d23cb14dbd26b87436a1a204d3a9e4",
-    "/leadersofdigital-hackaton-2021/main.86b3875ecdbed830b16a.js": "951f4a2909ef79a89dd0e50dc157b488a4cf8a78",
-    "/leadersofdigital-hackaton-2021/manifest.webmanifest": "0525a045ed472918dea972e744b31758ac30393b",
-    "/leadersofdigital-hackaton-2021/polyfills.4dcd3afaf34482e79ea9.js": "c4aa1dfb653bc5500a6553c6fa9ce32c712fc27b",
-    "/leadersofdigital-hackaton-2021/runtime.ce2afe238265c8b3d829.js": "70b10d6fdf66f0e73786d88601ab088ac8ade35d",
-    "/leadersofdigital-hackaton-2021/styles.9000d4fa46793e6c5f44.css": "aae66f39a1bc7dc27b1ca7b8b2363911cb1381ce"
+    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "912887560521168a6091e19b45a491e8d135a8b9",
+    "/main.cab68b7bf61d0f91c8c7.js": "951f4a2909ef79a89dd0e50dc157b488a4cf8a78",
+    "/manifest.webmanifest": "63b272452f7323ec09705c84044faa394ce82a79",
+    "/polyfills.45e2d48ca819850e62fb.js": "c4aa1dfb653bc5500a6553c6fa9ce32c712fc27b",
+    "/runtime.ce2afe238265c8b3d829.js": "70b10d6fdf66f0e73786d88601ab088ac8ade35d",
+    "/styles.9000d4fa46793e6c5f44.css": "aae66f39a1bc7dc27b1ca7b8b2363911cb1381ce"
   },
   "navigationUrls": [
     {
