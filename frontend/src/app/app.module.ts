@@ -13,6 +13,7 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { NavigationListComponent } from './navigation-list/navigation-list.component';
 import { SaveButtonComponent } from './save-button/save-button.component';
+import { FormLiveAddressComponent } from './form-live-address/form-live-address.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { SaveButtonComponent } from './save-button/save-button.component';
     FormChronicInfoComponent,
     FormSymptomsComponent,
     NavigationListComponent,
-    SaveButtonComponent
+    SaveButtonComponent,
+    FormLiveAddressComponent
   ],
   imports: [
     BrowserModule,
