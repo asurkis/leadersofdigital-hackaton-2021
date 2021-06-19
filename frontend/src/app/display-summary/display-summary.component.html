@@ -1,22 +1,20 @@
 <table>
     <tr>
         <td>ФИО:</td>
-        <td>{{generalInfo.fullName}}</td>
+        <td>{{sharedInfo.staticInfo.fullName}}</td>
     </tr>
     <tr>
         <td>Паспорт:</td>
-        <td>{{generalInfo.passport}}</td>
+        <td>{{sharedInfo.staticInfo.passport}}</td>
     </tr>
     <tr>
         <td>Полис:</td>
-        <td>{{generalInfo.policy}}</td>
+        <td>{{sharedInfo.staticInfo.policy}}</td>
     </tr>
     <tr>
         <td>СНИЛС:</td>
-        <td>{{generalInfo.snils}}</td>
+        <td>{{sharedInfo.staticInfo.snils}}</td>
     </tr>
 </table>
 
-<p>{{symptoms.symptoms}}</p>
-
-<app-navigation-list></app-navigation-list>
+<p>{{sharedInfo.dynamicInfo.symptoms}}</p>

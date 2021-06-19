@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { GeneralInfoService } from '../general-info.service';
-import { SymptomsService } from '../symptoms.service';
+import { SharedInfoService } from '../shared-info.service';
 
 @Component({
   selector: 'app-display-summary',
@@ -8,13 +7,6 @@ import { SymptomsService } from '../symptoms.service';
   styleUrls: ['./display-summary.component.css']
 })
 export class DisplaySummaryComponent implements OnInit {
-
-  constructor(
-    public generalInfo: GeneralInfoService,
-    public symptoms: SymptomsService
-  ) { }
-
-  ngOnInit(): void {
-  }
-
+  constructor(public sharedInfo: SharedInfoService) { }
+  ngOnInit(): void { }
 }

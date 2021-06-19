@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { SymptomsService } from '../symptoms.service';
+import { SharedInfoService } from '../shared-info.service';
 
 @Component({
   selector: 'app-form-symptoms',
@@ -7,10 +7,6 @@ import { SymptomsService } from '../symptoms.service';
   styleUrls: ['./form-symptoms.component.css']
 })
 export class FormSymptomsComponent implements OnInit {
-
-  constructor(public service: SymptomsService) { }
-
-  ngOnInit(): void {
-  }
-
+  constructor(public sharedInfo: SharedInfoService) { }
+  ngOnInit(): void { }
 }

@@ -12,6 +12,7 @@ import { FormSymptomsComponent } from './form-symptoms/form-symptoms.component';
 import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { NavigationListComponent } from './navigation-list/navigation-list.component';
+import { SaveButtonComponent } from './save-button/save-button.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NavigationListComponent } from './navigation-list/navigation-list.compo
     FormGeneralInfoComponent,
     FormChronicInfoComponent,
     FormSymptomsComponent,
-    NavigationListComponent
+    NavigationListComponent,
+    SaveButtonComponent
   ],
   imports: [
     BrowserModule,

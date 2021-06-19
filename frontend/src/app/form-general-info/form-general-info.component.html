@@ -1,13 +1,13 @@
 <p>ФИО:</p>
-<p><input id="fullName" [(ngModel)]="service.fullName" placeholder="Иванов Иван Иванович"></p>
+<p><input id="fullName" [(ngModel)]="sharedInfo.staticInfo.fullName" placeholder="Иванов Иван Иванович"></p>
 
 <p>Паспорт:</p>
-<p><input id="passport" [(ngModel)]="service.passport" placeholder="1234 12345678"></p>
+<p><input id="passport" [(ngModel)]="sharedInfo.staticInfo.passport" placeholder="1234 12345678"></p>
 
 <p>Полис:</p>
-<p><input id="policy" [(ngModel)]="service.policy" placeholder="Полис"></p>
+<p><input id="policy" [(ngModel)]="sharedInfo.staticInfo.policy" placeholder="Полис"></p>
 
 <p>СНИЛС:</p>
-<p><input id="snils" [(ngModel)]="service.snils" placeholder="СНИЛС"></p>
+<p><input id="snils" [(ngModel)]="sharedInfo.staticInfo.snils" placeholder="СНИЛС"></p>
 
-<app-navigation-list></app-navigation-list>
+<app-save-button></app-save-button>
