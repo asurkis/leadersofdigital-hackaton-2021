@@ -1,6 +1,61 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~ng-zorro-antd/ng-zorro-antd.min.css";
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: Lato, "Helvetica Neue", sans-serif; }
 
-@import "~ng-zorro-antd/ng-zorro-antd.min.css";
+h1 {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+h2 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+label {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.input {
+    padding: 5px 12px;
+    height: 32px;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.one-column {
+    width: 100%;
+}
+
+.passport {
+    display: flex;
+}
+
+.two-column {
+    width: 49%;
+    flex-grow: 1;
+}
+
+.two-column:first-child {
+    margin-right: 8px;
+}
+
+.sex label {
+    margin-left: 8px;
+}
+
+.container {
+    padding: 26px 24px 22px 24px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');

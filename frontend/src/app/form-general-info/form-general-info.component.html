@@ -1,27 +1,26 @@
-<h1>Моя мед. карта</h1>
 <h2>Данные пациента</h2>
 
 <p>ФИО</p>
-<p><input id="fullName" [(ngModel)]="sharedInfo.staticInfo.fullName" placeholder="Иванов Иван Иванович"></p>
+<p><input id="fullName" class="input one-column" [(ngModel)]="sharedInfo.staticInfo.fullName" placeholder="Иванов Иван Иванович"></p>
 
 <p>Дата рождения</p>
-<p><input id="birhtdate" [(ngModel)]="sharedInfo.staticInfo.birthday" type="date"></p>
+<p><input id="birhtdate" class="input one-column" [(ngModel)]="sharedInfo.staticInfo.birthday" type="date"></p>
 
 <p>Пол</p>
-<p><input id="male" type="radio" [(ngModel)]="sharedInfo.staticInfo.sex" name="sex" value="Мужской"><label for="male">Мужской</label></p>
-<p><input id="female" type="radio" [(ngModel)]="sharedInfo.staticInfo.sex" name="sex" value="Женский"><label for="female">Женский</label></p>
+<p class="sex"><input id="male" type="radio" [(ngModel)]="sharedInfo.staticInfo.sex" name="sex" value="Мужской"><label for="male">Мужской</label></p>
+<p class="sex"><input id="female" type="radio" [(ngModel)]="sharedInfo.staticInfo.sex" name="sex" value="Женский"><label for="female">Женский</label></p>
 
 <p>Паспорт серия и номер</p>
-<p><input id="passport" [(ngModel)]="sharedInfo.staticInfo.passport_series" placeholder="1234">
-    <input id="passport" [(ngModel)]="sharedInfo.staticInfo.passport_number" placeholder="123456"></p>
+<p class="passport"><input id="passport" class="input two-column" [(ngModel)]="sharedInfo.staticInfo.passport_series" placeholder="1234">
+    <input id="passport" class="input two-column" [(ngModel)]="sharedInfo.staticInfo.passport_number" placeholder="123456"></p>
 
 <p>Адрес регистрации</p>
-<p><input id="address1" [(ngModel)]="sharedInfo.staticInfo.address" placeholder="Санкт-Петербург, ул. Новая, д.1, кв.99"></p>
+<p><input id="address1" class="input one-column" [(ngModel)]="sharedInfo.staticInfo.address" placeholder="Санкт-Петербург, ул. Новая, д.1, кв.99"></p>
 
 <p>Полис:</p>
-<p><input id="policy" [(ngModel)]="sharedInfo.staticInfo.policy" placeholder="Полис"></p>
+<p><input id="policy" class="input one-column" [(ngModel)]="sharedInfo.staticInfo.policy" placeholder="Полис"></p>
 
 <p>СНИЛС:</p>
-<p><input id="snils" [(ngModel)]="sharedInfo.staticInfo.snils" placeholder="СНИЛС"></p>
+<p><input id="snils" class="input one-column" [(ngModel)]="sharedInfo.staticInfo.snils" placeholder="СНИЛС"></p>
 
 <app-save-button></app-save-button>
