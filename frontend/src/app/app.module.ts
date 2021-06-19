@@ -9,6 +9,7 @@ import { DisplaySummaryComponent } from './display-summary/display-summary.compo
 import { FormGeneralInfoComponent } from './form-general-info/form-general-info.component';
 import { FormChronicInfoComponent } from './form-chronic-info/form-chronic-info.component';
 import { FormSymptomsComponent } from './form-symptoms/form-symptoms.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FormSymptomsComponent } from './form-symptoms/form-symptoms.component';
       // or after 30 seconds (whichever comes first).
       registrationStrategy: 'registerWhenStable:30000'
     }),
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GeneralInfoService } from '../general-info.service';
 
 @Component({
   selector: 'app-form-general-info',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FormGeneralInfoComponent implements OnInit {
 
-  constructor() { }
+  constructor(public service: GeneralInfoService) { }
 
   ngOnInit(): void {
   }
