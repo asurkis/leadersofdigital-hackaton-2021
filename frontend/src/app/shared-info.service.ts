@@ -7,7 +7,11 @@ export interface ChronicRecord {
 
 export interface StaticInfoInterface {
   fullName: string;
-  passport: string;
+  birthday: string;
+  sex: string;
+  passport_series: string;
+  passport_number: string;
+  address: string;
   policy: string;
   snils: string;
   chronicRecords: ChronicRecord[];
