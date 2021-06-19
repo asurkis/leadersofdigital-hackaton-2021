@@ -1,3 +1,13 @@
-<p>form-chronic-info works!</p>
+<table>
+  <tr *ngFor="let record of chronicRecords">
+    <td>{{record.date.substr(0, 10)}}</td>
+    <td>{{record.text}}</td>
+    <td><button (click)="removeItem(record)">Удалить</button></td>
+  </tr>
+</table>
+<p>
+  <input [(ngModel)]="newRecordText">
+  <button (click)="addItem()">Добавить</button>
+</p>
 
 <app-save-button></app-save-button>

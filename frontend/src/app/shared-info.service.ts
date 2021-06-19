@@ -1,15 +1,30 @@
 import { Injectable } from '@angular/core';
 
+export interface ChronicRecord {
+  text: string;
+  date: string;
+}
+
+export interface StaticInfoInterface {
+  fullName: string;
+  passport: string;
+  policy: string;
+  snils: string;
+  chronicRecords: ChronicRecord[];
+}
+
 @Injectable({
   providedIn: 'root'
 })
 export class SharedInfoService {
 
-  public staticInfo = {
+  public staticInfo: StaticInfoInterface = {
     fullName: '',
     passport: '',
     policy: '',
-    snils: ''
+    snils: '',
+
+    chronicRecords: []
   };
 
   public dynamicInfo = {
