@@ -7,7 +7,11 @@ export class SharedInfoService {
 
   public staticInfo = {
     fullName: '',
-    passport: '',
+    birthday: '',
+    sex: '',
+    passport_series: '',
+    passport_number: '',
+    address: '',
     policy: '',
     snils: ''
   };

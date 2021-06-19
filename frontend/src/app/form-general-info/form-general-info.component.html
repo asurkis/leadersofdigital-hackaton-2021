@@ -1,8 +1,22 @@
-<p>ФИО:</p>
+<h1>Моя мед. карта</h1>
+<h2>Данные пациента</h2>
+
+<p>ФИО</p>
 <p><input id="fullName" [(ngModel)]="sharedInfo.staticInfo.fullName" placeholder="Иванов Иван Иванович"></p>
 
-<p>Паспорт:</p>
-<p><input id="passport" [(ngModel)]="sharedInfo.staticInfo.passport" placeholder="1234 12345678"></p>
+<p>Дата рождения</p>
+<p><input id="birhtdate" [(ngModel)]="sharedInfo.staticInfo.birthday" type="date"></p>
+
+<p>Пол</p>
+<p><input id="male" type="radio" [(ngModel)]="sharedInfo.staticInfo.sex" name="sex"><label for="male">Мужской</label></p>
+<p><input id="female" type="radio" [(ngModel)]="sharedInfo.staticInfo.sex" name="sex"><label for="female">Женский</label></p>
+
+<p>Паспорт серия и номер</p>
+<p><input id="passport" [(ngModel)]="sharedInfo.staticInfo.passport_series" placeholder="1234">
+    <input id="passport" [(ngModel)]="sharedInfo.staticInfo.passport_number" placeholder="123456"></p>
+
+<p>Адрес регистрации</p>
+<p><input id="address1" [(ngModel)]="sharedInfo.staticInfo.address" placeholder="Санкт-Петербург, ул. Новая, д.1, кв.99"></p>
 
 <p>Полис:</p>
 <p><input id="policy" [(ngModel)]="sharedInfo.staticInfo.policy" placeholder="Полис"></p>
