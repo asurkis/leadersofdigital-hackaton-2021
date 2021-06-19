@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { NzButtonModule } from 'ng-zorro-antd/button';
 
 import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
@@ -14,6 +15,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { NavigationListComponent } from './navigation-list/navigation-list.component';
 import { SaveButtonComponent } from './save-button/save-button.component';
 import { FormLiveAddressComponent } from './form-live-address/form-live-address.component';
+import { NzIconModule } from 'ng-zorro-antd/icon';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,9 @@ import { FormLiveAddressComponent } from './form-live-address/form-live-address.
     }),
     BrowserAnimationsModule,
     FormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NzButtonModule,
+    NzIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
