@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { GeneralInfoService } from '../general-info.service';
+import { SymptomsService } from '../symptoms.service';
 
 @Component({
   selector: 'app-display-summary',
@@ -7,7 +9,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DisplaySummaryComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    public generalInfo: GeneralInfoService,
+    public symptoms: SymptomsService
+  ) { }
 
   ngOnInit(): void {
   }

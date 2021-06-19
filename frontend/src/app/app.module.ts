@@ -10,6 +10,8 @@ import { FormGeneralInfoComponent } from './form-general-info/form-general-info.
 import { FormChronicInfoComponent } from './form-chronic-info/form-chronic-info.component';
 import { FormSymptomsComponent } from './form-symptoms/form-symptoms.component';
 import { FormsModule } from '@angular/forms';
+import { AppRoutingModule } from './app-routing.module';
+import { NavigationListComponent } from './navigation-list/navigation-list.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,8 @@ import { FormsModule } from '@angular/forms';
     DisplaySummaryComponent,
     FormGeneralInfoComponent,
     FormChronicInfoComponent,
-    FormSymptomsComponent
+    FormSymptomsComponent,
+    NavigationListComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +31,8 @@ import { FormsModule } from '@angular/forms';
       registrationStrategy: 'registerWhenStable:30000'
     }),
     BrowserAnimationsModule,
-    FormsModule
+    FormsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
