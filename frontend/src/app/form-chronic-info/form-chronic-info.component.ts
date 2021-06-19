@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SharedInfoService } from '../shared-info.service';
 
 @Component({
   selector: 'app-form-chronic-info',
@@ -6,10 +7,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./form-chronic-info.component.css']
 })
 export class FormChronicInfoComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  constructor(public sharedInfo: SharedInfoService) { }
+  ngOnInit(): void { }
 }

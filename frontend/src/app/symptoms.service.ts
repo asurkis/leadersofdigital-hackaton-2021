@@ -5,7 +5,5 @@ import { Injectable } from '@angular/core';
 })
 export class SymptomsService {
 
-  public symptoms: string = '';
-
   constructor() { }
 }
