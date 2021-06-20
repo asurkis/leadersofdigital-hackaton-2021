@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1624169689022,
+  "timestamp": 1624170028172,
   "index": "/leadersofdigital-hackaton-2021/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/leadersofdigital-hackaton-2021/favicon.ico",
         "/leadersofdigital-hackaton-2021/index.html",
-        "/leadersofdigital-hackaton-2021/main.c9bf6dba21b20c4b83ab.js",
+        "/leadersofdigital-hackaton-2021/main.f51649f4eb040bcd9b0d.js",
         "/leadersofdigital-hackaton-2021/manifest.webmanifest",
         "/leadersofdigital-hackaton-2021/polyfills.45e2d48ca819850e62fb.js",
         "/leadersofdigital-hackaton-2021/runtime.ce2afe238265c8b3d829.js",
@@ -52,8 +52,8 @@
     "/leadersofdigital-hackaton-2021/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/leadersofdigital-hackaton-2021/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/leadersofdigital-hackaton-2021/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/leadersofdigital-hackaton-2021/index.html": "6dbd9ee5d84dad42b4605480ad512590a7ee6cc6",
-    "/leadersofdigital-hackaton-2021/main.c9bf6dba21b20c4b83ab.js": "8b7b9069b4bc22dc2f5b1bd4ecc4753ef867ccc3",
+    "/leadersofdigital-hackaton-2021/index.html": "53affdd97eb1222167623a8b09d675edf727359b",
+    "/leadersofdigital-hackaton-2021/main.f51649f4eb040bcd9b0d.js": "7e9bbb07d22570d5c7e01ac1eae0b4504f3c899b",
     "/leadersofdigital-hackaton-2021/manifest.webmanifest": "63b272452f7323ec09705c84044faa394ce82a79",
     "/leadersofdigital-hackaton-2021/polyfills.45e2d48ca819850e62fb.js": "c4aa1dfb653bc5500a6553c6fa9ce32c712fc27b",
     "/leadersofdigital-hackaton-2021/runtime.ce2afe238265c8b3d829.js": "70b10d6fdf66f0e73786d88601ab088ac8ade35d",
