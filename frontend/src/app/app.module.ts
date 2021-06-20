@@ -26,7 +26,7 @@ import { NzIconModule } from 'ng-zorro-antd/icon';
     FormSymptomsComponent,
     NavigationListComponent,
     SaveButtonComponent,
-    FormLiveAddressComponent
+    FormLiveAddressComponent,
   ],
   imports: [
     BrowserModule,

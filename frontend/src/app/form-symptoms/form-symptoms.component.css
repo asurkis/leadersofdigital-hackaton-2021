@@ -1,5 +1,5 @@
 button {
-
+    background-color: #22798E;
     width: 64px;
     height: 64px;
 }
@@ -7,4 +7,5 @@ button {
 textarea {
     width: 100%;
     height: 100px;
+    padding: 5px 12px;
 }

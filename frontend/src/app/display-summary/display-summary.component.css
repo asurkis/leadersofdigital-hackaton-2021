@@ -1,0 +1,12 @@
+tr {
+    border-bottom: 1px solid #D9D9D9;
+}
+
+td {
+    padding: 12px 0;
+}
+
+td:first-child {
+    color: rgba(0, 0, 0, 0.85);
+    padding-right: 6px;
+}
